@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/softi">
+
+    <TextView
+        android:id="@+id/recyclerview_row_usermail_text"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:text="userName text" />
+
+    <ImageView
+        android:id="@+id/recyclerview_row_imageview"
+        android:layout_width="324dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/recyclerview_row_caption_text"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:text="caption text" />
+
+</LinearLayout>
